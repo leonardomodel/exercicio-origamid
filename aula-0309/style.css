@@ -56,6 +56,16 @@
   justify-self: end;
 }
 
+.conteudo h2 {
+  margin: 40px;
+  display: grid;
+  place-items: center;
+  font-size: 4rem;
+  text-align: end;
+  text-transform: uppercase;
+  color:#c6c6c6;
+}
+
 /*estilos iniciais*/
 * {
   margin: 0px;
