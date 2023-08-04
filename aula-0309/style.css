@@ -23,7 +23,37 @@
 }
 
 .menu-header li:hover {
-  border: 2px solid red;
+  border: 2px solid #ee2211;
+}
+
+.main-container {
+  max-width: 1000px;
+}
+
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.conteudo-descricao {
+  margin: 40px;
+  display: grid;
+  align-content: center;
+  gap: 20px;
+}
+
+.conteudo-descricao h1, p {
+  text-align: end;
+}
+
+.conteudo-descricao a {
+  background: #ee2211;
+  padding: 10px 15px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  justify-self: end;
 }
 
 /*estilos iniciais*/
@@ -33,6 +63,9 @@
 }
 
 body {
+  display: grid;
+  gap: 60px;
+  justify-content: center;
   font-family: Arial;
   background: #f7f7f7;
   font-size: 1.25rem;
