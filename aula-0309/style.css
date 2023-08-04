@@ -1,3 +1,31 @@
+.header-container {
+  display: grid;
+  gap: 60px;
+  justify-items: center;
+  margin-top: 60px;
+}
+
+.menu-header ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.menu-header li {
+  list-style: none;
+  padding: 10px 15px;
+  background: white;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 4px;
+  border: 2px solid transparent;
+}
+
+.menu-header li:hover {
+  border: 2px solid red;
+}
+
 /*estilos iniciais*/
 * {
   margin: 0px;
@@ -8,4 +36,9 @@ body {
   font-family: Arial;
   background: #f7f7f7;
   font-size: 1.25rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
