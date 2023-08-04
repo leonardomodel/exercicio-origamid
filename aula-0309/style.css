@@ -1,0 +1,11 @@
+/*estilos iniciais*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Arial;
+  background: #f7f7f7;
+  font-size: 1.25rem;
+}
