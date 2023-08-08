@@ -95,7 +95,6 @@ p {
   text-transform: uppercase;
   border-radius: 4px;
 }
-
 .subtitulo {
   display: grid;
   place-items: center;
@@ -104,4 +103,5 @@ p {
   padding: 40px;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.2);
+  background-image: url('./img/onda.svg');
 }
