@@ -145,3 +145,11 @@ p {
 .vantagens-item p {
   grid-column: 2;
 }
+
+.rodape {
+  background: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
