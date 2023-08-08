@@ -33,8 +33,7 @@ p {
   line-height: 1.3;
 }
 
-/*stilos*/
-
+/*estilos header*/
 .header {
   display: grid;
   justify-items: center;
@@ -63,8 +62,7 @@ p {
   border: 2px solid #e21;
 }
 
-/*stilos do conteúdo principal*/
-
+/*estilos label-introducao*/
 .conteudo {
   max-width: 1000px;
   display: grid;
@@ -108,6 +106,7 @@ p {
   background: #900;
 }
 
+/*estilos label-vantagens*/
 .subtitulo {
   display: grid;
   place-items: center;
@@ -146,6 +145,7 @@ p {
   grid-column: 2;
 }
 
+/*estilo footer*/
 .rodape {
   background: #fff;
   width: 100%;
