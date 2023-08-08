@@ -103,6 +103,11 @@ p {
   text-transform: uppercase;
   border-radius: 4px;
 }
+
+.introducao a:hover {
+  background: #900;
+}
+
 .subtitulo {
   display: grid;
   place-items: center;
