@@ -95,3 +95,13 @@ p {
   text-transform: uppercase;
   border-radius: 4px;
 }
+
+.subtitulo {
+  display: grid;
+  place-items: center;
+  font-size: 4rem;
+  text-align: end;
+  padding: 40px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.2);
+}
