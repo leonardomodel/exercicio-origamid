@@ -96,7 +96,7 @@ p {
   font-size: 2rem;
 }
 
-.introducao a {
+.botao {
   padding: 1rem 2rem;
   background: #e21;
   color: white;
@@ -104,7 +104,7 @@ p {
   border-radius: 4px;
 }
 
-.introducao a:hover {
+.botao:hover {
   background: #900;
 }
 
